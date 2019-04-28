@@ -135,10 +135,8 @@ h2 {
 .col-1 {
 	flex: 1;
 	position: relative;
-
-	
 	background-color: #f8b300;
-	height: 100%;
+	
 	border: 1px solid black;
 	
 }
@@ -180,7 +178,7 @@ h2 {
 
 .text {
 	position: absolute;
-	top: 40%;
+	/*top: 40%;*/
 	padding: 3em;
 
 	
@@ -217,7 +215,19 @@ h2 {
 
 
 
+.col-1{
+	background-image: url(/img/bottom-col-1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
 
+.col-1:hover{
+	background-image: url(/img/top-col-1.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-position: bottom;
+}
 
  /* ==========================================================================
    Helper classes
