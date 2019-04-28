@@ -103,16 +103,117 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+*{ box-sizing: border-box}
+
+
+html, body, section {
+  height: 100%;
+
+}
+
+
+ 
 
 
 
+h2 {
+	font-size: 1em;
+	font-family: monospace;
+
+}
 
 
 
+.container {
+  display: flex;
+	top: 0;
+	flex: 1;
+
+}
 
 
+.col-1 {
+	flex: 1;
+	position: relative;
+
+	
+	background-color: #f8b300;
+	height: 100%;
+	border: 1px solid black;
+	
+}
 
 
+.col-2 {
+	flex: 1;
+	position: relative;
+	
+	background-color: #ff795c;
+	height: 100%;
+	border: 1px solid #ff795c;
+	
+}
+
+.col-2 h1{
+  font-size: 2em;
+	color: #fff;
+	text-align: center;
+
+}
+
+.col-3 {
+	flex: 1;
+	position: relative;
+	
+	background-color: #a7c9d3;
+	height: 100%;
+	border: 1px solid black;
+	
+}
+
+@media (max-width: 400px) {
+  .container,
+  .column {
+		display: block;
+  }
+}
+
+
+.text {
+	position: absolute;
+	top: 40%;
+	padding: 3em;
+	
+	
+}
+
+.text h3{
+	font-size: 2em;
+
+}
+
+.text h4{
+	font-weight: 400;
+	letter-spacing: .09em;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	font-size: .75em;
+	width: 95px;
+	border-bottom: 2px solid white; 
+	padding-bottom: 3px;
+	
+
+
+	
+}
+
+.text a{
+	color: #fff;
+	text-decoration: none;
+	
+	
+}
 
 
 
