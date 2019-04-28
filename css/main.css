@@ -147,9 +147,7 @@ h2 {
 .col-2 {
 	flex: 1;
 	position: relative;
-	
 	background-color: #ff795c;
-	height: 100%;
 	border: 1px solid #ff795c;
 	
 }
@@ -166,8 +164,9 @@ h2 {
 	position: relative;
 	
 	background-color: #a7c9d3;
-	height: 100%;
+	
 	border: 1px solid black;
+	
 	
 }
 
@@ -183,6 +182,7 @@ h2 {
 	position: absolute;
 	top: 40%;
 	padding: 3em;
+
 	
 	
 }
