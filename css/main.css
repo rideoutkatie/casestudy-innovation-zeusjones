@@ -106,38 +106,39 @@ textarea {
 *{ box-sizing: border-box}
 
 
-html, body, section {
-  height: 100%;
 
-}
-
-
- 
-
-
-
+/*====================
+numbers================*/
 h2 {
 	font-size: 1em;
 	font-family: monospace;
 
 }
 
-
+body{
+	border: 2px solid blue;
+	max-height: 100%;
+}
 
 .container {
   display: flex;
-	top: 0;
-	flex: 1;
-
+	position: relative;
+	border: 3px solid green;
+	height: 800px;
+	
 }
 
+/*=================
+individual colums - colors
+=====================*/
 
-.col-1 {
+.col-1 {	
 	flex: 1;
 	position: relative;
 	background-color: #f8b300;
-	
 	border: 1px solid black;
+	margin: 0;
+	
 	
 }
 
@@ -147,6 +148,18 @@ h2 {
 	position: relative;
 	background-color: #ff795c;
 	border: 1px solid #ff795c;
+	margin: 0;
+	
+	
+}
+
+.col-3 {
+	flex: 1;
+	position: relative;
+	background-color: #a7c9d3;
+	border: 1px solid black;
+	margin: 0;
+	
 	
 }
 
@@ -154,33 +167,24 @@ h2 {
   font-size: 2em;
 	color: #fff;
 	text-align: center;
-
-}
-
-.col-3 {
-	flex: 1;
-	position: relative;
-	
-	background-color: #a7c9d3;
-	
-	border: 1px solid black;
-	
+	border: 1px black solid;
 	
 }
 
-@media (max-width: 400px) {
+
+/*@media (max-width: 400px) {
   .container,
-  .column {
+  .col-1.col-2.col-3 {
 		display: block;
   }
 }
-
+*/
 
 .text {
+	border: 2px solid purple;
+	margin: auto;
 	position: absolute;
-	/*top: 40%;*/
-	padding: 3em;
-
+	bottom: 0;
 	
 	
 }
@@ -190,6 +194,10 @@ h2 {
 
 }
 
+
+/*=================
+learn more
+=====================*/
 .text h4{
 	font-weight: 400;
 	letter-spacing: .09em;
@@ -201,32 +209,12 @@ h2 {
 	border-bottom: 2px solid white; 
 	padding-bottom: 3px;
 	
-
-
-	
 }
 
 .text a{
 	color: #fff;
 	text-decoration: none;
 	
-	
-}
-
-
-
-.col-1{
-	background-image: url(/img/bottom-col-1.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	
-}
-
-.col-1:hover{
-	background-image: url(/img/top-col-1.png);
-	background-size: 100%;
-	background-repeat: no-repeat;
-	background-position: bottom;
 }
 
  /* ==========================================================================
