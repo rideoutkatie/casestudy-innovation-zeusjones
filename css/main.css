@@ -217,6 +217,22 @@ learn more
 	
 }
 
+.para {
+	opacity: 0;
+	visibility: hidden;
+	
+}
+
+.heading:hover + .para{
+	opacity: 1;
+	visibility: visibile;
+}
+
+
+
+
+
+
  /* ==========================================================================
    Helper classes
    ========================================================================== */
