@@ -138,16 +138,21 @@ individual colums - colors
 	background-color: #f8b300;
 	border: 1px solid black;
 	margin: 0;
-	
-	
+		
 }
+
+
+
+
+
+
 
 
 .col-2 {
 	flex: 1;
 	position: relative;
 	background-color: #ff795c;
-	border: 1px solid #ff795c;
+	border: 1px solid red;
 	margin: 0;
 	
 	
@@ -217,20 +222,55 @@ learn more
 	
 }
 
-.para {
-	opacity: 0;
-	visibility: hidden;
+
+
+
+/*img{
+	display: block;
+	width: 100%;
+	position: absolute;
+	bottom: 0
+}*/
+
+
+.content{
+	position: absolute;
+	top: 45%;
+	left: 45%;
+	transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	color: #fff;
+	font-size: 40px;
+	white-space: nowrap;
+	overflow: hidden;
+}
+
+.content span{
+	font-size: 24px;
+	display: block;
+}
+
+.overlay{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color:aqua;
+	width: 100%;
+	height: 0;
+	transition: .5s ease;
+	overflow: hidden;
 	
 }
 
-.heading:hover + .para{
-	opacity: 1;
-	visibility: visibile;
+.wrapper{
+	position: absolute;
+	bottom: 50px;
 }
 
-
-
-
+.wrapper:hover .overlay{
+	height: 150%;
+}
 
 
  /* ==========================================================================
