@@ -194,7 +194,7 @@ individual colums - colors
 	
 }
 
-.text h3{
+h3{
 	font-size: 2em;
 
 }
@@ -235,30 +235,28 @@ learn more
 
 .content{
 	position: absolute;
-	top: 45%;
-	left: 45%;
-	transform: translate(-50%, -50%);
-	-ms-transform: translate(-50%, -50%);
-	color: #fff;
-	font-size: 40px;
-	white-space: nowrap;
+	top: 10%;
+	left: 0%;
+	padding-top: 20px; padding-bottom: 50px; border: 1px solid black;
+	color: #000;
+	font-size: ;
+	white-space: wrap;
 	overflow: hidden;
 }
 
-.content span{
-	font-size: 24px;
-	display: block;
-}
 
-.overlay{
+
+
+
+.col-1 .overlay{
 	position: absolute;
 	bottom: 0;
 	left: 0;
 	right: 0;
-	background-color:aqua;
+	background-color:#f8b300;
 	width: 100%;
 	height: 0;
-	transition: .5s ease;
+	transition: .25s ease;
 	overflow: hidden;
 	
 }
@@ -269,8 +267,9 @@ learn more
 }
 
 .wrapper:hover .overlay{
-	height: 150%;
+	height: 190%;
 }
+
 
 
  /* ==========================================================================
