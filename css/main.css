@@ -142,6 +142,8 @@ individual colums - colors
 	
 		
 }
+
+/*icon*/
 .col-1 img{
 	padding-top: 1.9em;
 	padding-left: 1em;
@@ -177,7 +179,6 @@ individual colums - colors
 	flex: 1;
 	position: relative;
 	background-color: #a7c9d3;
-	border: 1px solid black;
 	margin: 0;
 	
 	
@@ -202,12 +203,12 @@ individual colums - colors
 
 .text {
 	border: 2px solid purple;
-	width: 100%
 	margin: 0;
 	position: absolute;
 	bottom: 0;
+	left:0;
 	padding-left: 1em;
-	padding-right: 1em;
+	
 	
 	
 }
