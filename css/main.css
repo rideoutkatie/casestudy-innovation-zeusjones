@@ -199,48 +199,45 @@ h2 {
 }
 */
 
-.text {
+.wrapper {
 	border: 2px solid purple;
 	margin: 0;
 	position: absolute;
 	bottom: 0;
 	left:0;
 	padding-left: 1em;
+	padding-bottom: 2.8em;
 	
 	
 	
 }
 
-h3{
+.wrapper h3{
 	font-size: 2em;
 
 }
 
 
 /*=================
-learn more
+learn more button
 =====================*/
-.text h4{
+.col-1 h4 a{
+	position: absolute;
+	bottom: 4em;
+	left: 1em;
+	font-size: .75em;
 	font-weight: 400;
-	letter-spacing: .09em;
+	letter-spacing: .1em;
 	font-family: sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	font-size: .75em;
 	width: 95px;
 	border-bottom: 2px solid white; 
 	padding-bottom: 3px;
-	
-	
-}
-
-.text a{
-	color: #fff;
 	text-decoration: none;
 	
+	
 }
-
-
 
 
 /*img{
