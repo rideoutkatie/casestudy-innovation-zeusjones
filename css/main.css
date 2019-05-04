@@ -161,19 +161,24 @@ what's stopping you h1
 
 /* info icon*/
 .container img{
+	height: 15%;
 	padding-top: 1.9em;
 	padding-left: 1em;
 	padding-right: 10em;
 	padding-bottom: 1em;
+	
 }
 
 .container img:hover{
 	background-image: URL(/img/asset5.png);
+	background-position: top 1.7em right 1.6em;
+	background-size: 85%;
 	background-repeat: no-repeat;
 	
-	transition: 1s ease;
-	padding: 1em;
+	
+
 }
+
 
 /*=================
       		individual colums - colors
@@ -208,6 +213,16 @@ what's stopping you h1
 	font-family: monospace;
 	font-size: 1em;
 }
+
+img.times-icon {
+	display: block;
+
+	padding:0px;
+	height: 15px;
+	
+}
+
+
 /*====================================*/
 
 
