@@ -200,13 +200,14 @@ h2 {
 */
 
 .wrapper {
-	border: 2px solid purple;
+	border: 1px solid black;
 	margin: 0;
 	position: absolute;
 	bottom: 0;
 	left:0;
-	padding-left: 1em;
-	padding-bottom: 2.8em;
+	padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 5em;
 	
 	
 	
@@ -220,24 +221,25 @@ h2 {
 
 /*=================
 learn more button
-=====================*/
-.col-1 h4 a{
+=====================*/ 
+
+h4 a{
 	position: absolute;
 	bottom: 4em;
-	left: 1em;
 	font-size: .75em;
 	font-weight: 400;
 	letter-spacing: .1em;
 	font-family: sans-serif;
 	text-transform: uppercase;
 	color: #fff;
-	width: 95px;
+	margin-left: 4em;
 	border-bottom: 2px solid white; 
 	padding-bottom: 3px;
 	text-decoration: none;
 	
 	
 }
+
 
 
 /*img{
@@ -250,20 +252,15 @@ learn more button
 
 .content{
 	position: absolute;
-	top: 10%;
-	left: 0%;
-	padding-top: 20px; 
-	padding-left: 10px;
-	color: #000;
-	font-family: monospace;
-	font-size: 1.3em;
+	top: 0;
+	left: 0;
+	padding-top: 0; 
+		padding-left: 3em;
+	padding-right: 3em;
+	padding-bottom: 5em;
 	white-space: wrap;
 	overflow: hidden;
 }
-
-
-
-
 
 .col-1 .overlay{
 	position: absolute;
@@ -273,7 +270,7 @@ learn more button
 	background-color:#f8b300;
 	width: 100%;
 	height: 0;
-	transition: .25s ease;
+	transition: .5s ease;
 	overflow: hidden;
 	
 }
@@ -286,7 +283,7 @@ learn more button
 	background-color:#ff795c;
 	width: 100%;
 	height: 0;
-	transition: .25s ease;
+	transition: .5s ease;
 	overflow: hidden;
 	
 }
@@ -299,18 +296,14 @@ learn more button
 	background-color:#a7c9d3;
 	width: 100%;
 	height: 0;
-	transition: .25s ease;
+	transition: .5s ease;
 	overflow: hidden;
 	
 }
 
-.wrapper{
-	position: absolute;
-	bottom: 50px;
-}
 
 .wrapper:hover .overlay{
-	height: 190%;
+	height: 125%;
 }
 
 
