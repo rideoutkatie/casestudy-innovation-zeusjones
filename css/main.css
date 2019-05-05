@@ -105,15 +105,11 @@ textarea {
 
 *{ box-sizing: border-box}
 
-body{
-	max-height: 100%;
-}
-
 
 .container {
   display: flex;
 	position: relative;
-	height: 800px;
+	min-height: 800px;
 	
 }
 
@@ -124,14 +120,9 @@ h3{
 	margin-top: .3em;
 	margin-bottom: 0em;
 	
-	 
-	
 }
 
-h1{
-	font-family: utopia-std-headline, serif;
-	letter-spacing: .01em;
-}
+
 
 h2 {
 	font-family: droid-sans-mono, monospace;
@@ -148,34 +139,43 @@ p{
 /*=================
 what's stopping you h1
 =====================*/
-.container h1 {
+.col-2 h1 {
+	font-family: utopia-std-headline, serif;
+	letter-spacing: .02em;
 	position: absolute;
-	z-index: 10;
-	margin: auto;
   font-size: 1.6em;
 	color: #fff;
-	top: 2.3em;
+	top: 2em;
 	left: 50%;
+	width: 100%;
   transform: translate(-50%, -50%);
+	text-align: center;
 	
 }
 
 
 /* info icon*/
-.container img{
-	height: 13%;
+.col-1 img{
+	display: block;
+	position: absolute;
+	top: 1em;
+	height: 5.7em;
 	padding-top: 1.9em;
 	padding-left: 1em;
-	padding-right: 10em;
+	padding-right: 1em;
 	padding-bottom: 1em;
+	margin-right:0;
 	
 }
 
-.container img:hover{
+
+.col-1 img:hover{
 	background-image: URL(/img/asset5.png);
-	background-position: top 1.45em right 1.6em;
-	background-size: 85%;
+	background-position: top 1.45em left .4em;
+	background-size: 10em;
 	background-repeat: no-repeat;
+	padding-right: 7em;
+
 	
 	
 
@@ -191,6 +191,7 @@ what's stopping you h1
 	position: relative;
 	background-color: #f8b300;
 	margin: 0;
+	max-width: 100%;
 }
 
 .col-2 {
@@ -198,12 +199,14 @@ what's stopping you h1
 	position: relative;
 	background-color: #ff795c;
 	margin: 0;
+	max-width: 100%;
 }
 .col-3 {
 	flex: 1;
 	position: relative;
 	background-color: #a7c9d3;
 	margin: 0;	
+	max-width: 100%;
 }
 
 
@@ -244,7 +247,8 @@ img.times-icon {
 */
 
 .wrapper {
-	
+	max-width: 100%;
+
 	margin: 0;
 	position: absolute;
 	bottom: 0;
@@ -252,21 +256,8 @@ img.times-icon {
 	padding-left: 3em;
 	padding-right: 3em;
 	padding-bottom: 5em;
-	
-	
-	
+
 }
-
-
-
-
-
-/*img{
-	display: block;
-	width: 100%;
-	position: absolute;
-	bottom: 0
-}*/
 
 
 .content{
@@ -368,7 +359,7 @@ h4 a:hover{
  
   overflow: hidden;
 }
-.hvr-underline-from-left1:before {
+.hvr-underline-from-left:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -385,7 +376,7 @@ h4 a:hover{
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-left1:hover:before, .hvr-underline-from-left1:focus:before, .hvr-underline-from-left1:active:before {
+.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
   right: 0;
 }
 
@@ -432,7 +423,7 @@ p.info{
 	padding-top: .65em;
 }
 
-.info-links h4 a{
+ h4.info a{
 	color: #000;
 	font-size: .8em;
 	font-weight: 400;
@@ -445,32 +436,12 @@ p.info{
 	text-decoration: none;
 }
 
-.info-links h4 a:hover{
+h4 a:hover{
 	border-bottom: 0px;
+	
 }
 
-/* Underline From Left*/  
 
-.hvr-underline-from-left2:before {
-  content: "";
-  position: absolute;
-  z-index: -1;
-  left: 0;
-  right: 100%;
-  bottom: 0;
-  background: #000;
-  height: 2px;
-
-  -webkit-transition-property: right;
-  transition-property: right;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
-  -webkit-transition-timing-function: ease-out;
-  transition-timing-function: ease-out;
-}
-.hvr-underline-from-left2:hover:before, .hvr-underline-from-left2:focus:before, .hvr-underline-from-left2:active:before {
-  right: 0;
-}
 
 
  /* ==========================================================================
