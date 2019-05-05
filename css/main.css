@@ -402,16 +402,19 @@ h4 a:hover{
 }
 
 .info-body{
-	margin: 4em 9em 10em 9em
+	margin: 3em 9em 10em 9em
 	
 }
 
 img.wings {
-	padding: 0em 0em 2em 0em;
+	padding-bottom: 1em;
+	
 }
 
 
 h1.info{
+	padding-top:0;
+	margin: 0; 
 	font-family: droid-sans-mono, monospace;
 }
 
