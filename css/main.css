@@ -368,7 +368,7 @@ h4 a:hover{
  
   overflow: hidden;
 }
-.learn-more .hvr-underline-from-left:before {
+.hvr-underline-from-left1:before {
   content: "";
   position: absolute;
   z-index: -1;
@@ -385,7 +385,7 @@ h4 a:hover{
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
-.hvr-underline-from-left:hover:before, .hvr-underline-from-left:focus:before, .hvr-underline-from-left:active:before {
+.hvr-underline-from-left1:hover:before, .hvr-underline-from-left1:focus:before, .hvr-underline-from-left1:active:before {
   right: 0;
 }
 
@@ -451,11 +451,26 @@ p.info{
 
 /* Underline From Left*/  
 
-.infolinks, .hvr-underline-from-left:before {
-  
+.hvr-underline-from-left2:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 0;
+  right: 100%;
+  bottom: 0;
   background: #000;
-}
+  height: 2px;
 
+  -webkit-transition-property: right;
+  transition-property: right;
+  -webkit-transition-duration: 0.4s;
+  transition-duration: 0.4s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-left2:hover:before, .hvr-underline-from-left2:focus:before, .hvr-underline-from-left2:active:before {
+  right: 0;
+}
 
 
  /* ==========================================================================
