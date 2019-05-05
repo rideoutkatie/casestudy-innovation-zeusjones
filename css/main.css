@@ -335,7 +335,7 @@ img.times-icon {
 learn more button
 =====================*/ 
 
-h4 a{
+ .learn-more h4 a{
 	position: absolute;
 	bottom: 4em;
 	font-size: .85em;
@@ -398,12 +398,34 @@ h4 a:hover{
 ========================================================================== */
 .header{
 	padding-left: 2.5em;
-	padding-top: 2em;
+	padding-top: 2.5em;
+}
+
+.info-body{
+	margin: 5em 9em 0em 10em
+	
+}
+
+img.wings {
+	padding: 0em 0em 2em 0em;
 }
 
 
+h1.info{
+	font-family: droid-sans-mono, monospace;
+}
 
+p.info{
+	font-family: droid-sans-mono, monospace;
+}
 
+.info h4{
+	color: black;
+}
+
+h4.info{
+	color: black;
+}
 
 
 
