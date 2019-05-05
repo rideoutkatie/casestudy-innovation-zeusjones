@@ -257,25 +257,7 @@ img.times-icon {
 	
 }
 
-/*=================
-learn more button
-=====================*/ 
 
-h4 a{
-	position: absolute;
-	bottom: 4em;
-	font-size: .75em;
-	font-weight: 400;
-	letter-spacing: .1em;
-	font-family: sans-serif;
-	text-transform: uppercase;
-	color: #fff;
-	margin: 0;
-	border-bottom: 2px solid white; 
-	padding-bottom: 3px;
-	text-decoration: none;
-	
-}
 
 
 
@@ -349,17 +331,35 @@ h4 a{
 }
 
     
+/*=================
+learn more button
+=====================*/ 
+
+h4 a{
+	position: absolute;
+	bottom: 4em;
+	font-size: .75em;
+	font-weight: 400;
+	letter-spacing: .1em;
+	font-family: sans-serif;
+	text-transform: uppercase;
+	color: #fff;
+	margin: 0;
+	border-bottom: 2px solid white; 
+	padding-bottom: 3px;
+	text-decoration: none;
+	
+}
 
 
-
-/* Underline From Left */
+/* Underline From Left*/  
 .hvr-underline-from-left {
   display: inline-block;
   vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
-  position: relative;
+ 
   overflow: hidden;
 }
 .hvr-underline-from-left:before {
@@ -370,7 +370,7 @@ h4 a{
   right: 100%;
   bottom: 0;
   background: #fff;
-  height: 4px;
+  height: 2px;
   -webkit-transition-property: right;
   transition-property: right;
   -webkit-transition-duration: 0.3s;
