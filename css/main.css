@@ -109,7 +109,7 @@ textarea {
 .container {
   display: flex;
 	position: relative;
-	min-height: 800px;
+	min-height: 850px;
 	
 }
 
@@ -280,7 +280,7 @@ img.times-icon {
 	padding-left: 3em;
 	padding-right: 3em;
 	padding-bottom: 5em;
-	white-space: wrap;
+	white-space: normal;
 	overflow: hidden;
 }
 
