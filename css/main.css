@@ -187,7 +187,7 @@ img.info-i-2{
 
 
 img.info-i:hover{
-	background-image: URL(/img/asset5.png);
+	background-image: URL(../img/asset5.png);
 	background-position: top 1.45em left .4em;
 	background-size: 10em;
 	background-repeat: no-repeat;
@@ -197,7 +197,7 @@ img.info-i:hover{
 
 
 img.info-i-2:hover{
-	background-image: URL(/img/asset5-2.png);
+	background-image: URL(../img/asset5-2.png);
 	background-position: top 1.45em left .4em;
 	background-size: 10em;
 	background-repeat: no-repeat;
