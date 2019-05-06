@@ -174,13 +174,22 @@ img.info-i:hover{
 	background-position: top 1.45em left .4em;
 	background-size: 10em;
 	background-repeat: no-repeat;
-	padding-right: 7em;
-
-	
-	
+	padding-right: 7em;	
 
 }
 
+img.arrow{
+	display: block;
+	position: fixed;
+	top: 42%;
+	right: 0em;
+	height: 5.7em;
+	padding-top: 1.9em;
+	padding-left: 1em;
+	padding-right: 1em;
+	padding-bottom: 1em;
+	margin-right:0;
+}
 
 /*=================
       		individual colums - colors
